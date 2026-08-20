@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-NIFTI转DICOM工具 - 核心转换器
-基于 nii2dcm 项目 (https://github.com/tomaroberts/nii2dcm)
-"""
 
 import os
 import sys
