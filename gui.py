@@ -150,7 +150,6 @@ class MainWindow(QMainWindow):
         info_label = QLabel(
             "支持的格式: NIfTI (.nii / .nii.gz) → DICOM (.dcm)\n"
             "转换将创建多个DICOM文件，每个文件对应NIfTI的一个切片\n"
-            "基于 nii2dcm 项目 (https://github.com/tomaroberts/nii2dcm)"
         )
         info_label.setStyleSheet("color: #666; font-size: 9pt;")
         info_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
